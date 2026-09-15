@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "add-diagnostic": {
+      "source": "vercel-labs/nostics",
+      "sourceType": "github",
+      "skillPath": "skills/add-diagnostic/SKILL.md",
+      "computedHash": "c7b8e4657722027d0ec9099406e05941d33103cc76b4915859e3cd60f94617a0"
+    },
     "audit-project-context": {
       "source": "jd-solanki/skills",
       "sourceType": "github",
@@ -43,11 +49,23 @@
       "skillPath": "skills/engineering/code-review/SKILL.md",
       "computedHash": "391e85aba3303f0d3980a6d1110fa91f3372b4bb4b1631764b409d8ee10ecef3"
     },
+    "codebase-design": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/codebase-design/SKILL.md",
+      "computedHash": "5a17552cc1482f1a40124bf4e6c9dbd90ac0dbb47e71c07d47369f9e5f2ae3b5"
+    },
     "coding": {
       "source": "jd-solanki/skills",
       "sourceType": "github",
       "skillPath": "skills/coding/coding/SKILL.md",
       "computedHash": "96ae725b2058a52dd838278b57f500dc12a48a3c6f32bda020edd5262df8a01b"
+    },
+    "context7-cli": {
+      "source": "upstash/context7",
+      "sourceType": "github",
+      "skillPath": "skills/context7-cli/SKILL.md",
+      "computedHash": "f22d21491528a0aaaf21a2a7c546428ffd208852473d6afbaf5e2d4845388639"
     },
     "create-pr": {
       "source": "jd-solanki/skills",
@@ -66,6 +84,12 @@
       "sourceType": "github",
       "skillPath": "skills/engineering/domain-modeling/SKILL.md",
       "computedHash": "7274ab949456b1706bb91500cd03b8f9ec684e5caef2bf17c357dddcf1840afd"
+    },
+    "find-docs": {
+      "source": "upstash/context7",
+      "sourceType": "github",
+      "skillPath": "skills/find-docs/SKILL.md",
+      "computedHash": "93ec2d2786d7e83973252383875c4f345a2ee7cbbd08a1ab38e5201b214640ee"
     },
     "git-commit": {
       "source": "jd-solanki/skills",
@@ -97,6 +121,36 @@
       "skillPath": "skills/scaffolding/node-cli/SKILL.md",
       "computedHash": "0d027ec28813897e1c4bcfb4a6d37ac578e8008a43bfe429086ea7e04a79718b"
     },
+    "nostics": {
+      "source": "vercel-labs/nostics",
+      "sourceType": "github",
+      "skillPath": "skills/nostics/SKILL.md",
+      "computedHash": "7a39ad8833dd28e1209b7c269564b6a864a859cf86fb3b64a87790bf3b47c5cc"
+    },
+    "ponytail": {
+      "source": "DietrichGebert/ponytail",
+      "sourceType": "github",
+      "skillPath": "skills/ponytail/SKILL.md",
+      "computedHash": "210fa0831f649ce9f8a305f7b7c8cf2a0dd09ac4dd53067109941b96e7811d4e"
+    },
+    "ponytail-audit": {
+      "source": "DietrichGebert/ponytail",
+      "sourceType": "github",
+      "skillPath": "skills/ponytail-audit/SKILL.md",
+      "computedHash": "8b8d72e6ff70b65b6c9518d470fcf29dc696eea93d28f3efa10fdcc60cbd696d"
+    },
+    "ponytail-review": {
+      "source": "DietrichGebert/ponytail",
+      "sourceType": "github",
+      "skillPath": "skills/ponytail-review/SKILL.md",
+      "computedHash": "4646594fcd75455533f7ff1425f4f1c5ba0fa65f88241bf262b1c4fc275f049a"
+    },
+    "research": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/research/SKILL.md",
+      "computedHash": "c8c1cba327a6f824b554cd978079a3dadd7406d73174f8fb9bfef58824691970"
+    },
     "review-pr": {
       "source": "jd-solanki/skills",
       "sourceType": "github",
@@ -114,6 +168,12 @@
       "sourceType": "github",
       "skillPath": "skills/scaffolding/setup-project-context/SKILL.md",
       "computedHash": "0ff60adb3e67342854a7de06f2aec4feeb3a8391b7fb3900c44b06ec1fd9bc57"
+    },
+    "writing-for-agents": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/writing-for-agents/SKILL.md",
+      "computedHash": "95da47fc97af998e85b7d7e6d57b3ac76727c1e290cfe9ea09005aacb826959f"
     },
     "writing-for-humans": {
       "source": "jd-solanki/skills",
