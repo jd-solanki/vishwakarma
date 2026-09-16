@@ -20,7 +20,7 @@ load-when: the server process, the client, observability, streaming run progress
 - **The server and client split is a settled goal, not an open question.** A run survives a
   closed browser and a restarted UI. This is the shape herdr and opencode use, and they are
   the inspiration for it.
-- **The client is v2.** The v0 interface is the `vs` commands plus GitHub itself, which is
+- **The client is v2.** The v0 interface is the `vk` commands plus GitHub itself, which is
   already a usable view of every run.
 - **A fleet-wide view is ours to store.** Neither Flue surface aggregates across runs, so
   any across-run view needs Vishwakarma's own storage. `docs/research/flue-framework.md`

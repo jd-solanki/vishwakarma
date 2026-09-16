@@ -1,6 +1,6 @@
 # Glossary
 
-Vishwakarma is a code factory: GitHub labels and `vs` commands start sandboxed coding
+Vishwakarma is a code factory: GitHub labels and `vk` commands start sandboxed coding
 agents that implement issues and review pull requests in other repositories.
 
 **Code factory**:

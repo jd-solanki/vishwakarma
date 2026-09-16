@@ -18,7 +18,7 @@ source of it.
   reading only GitHub can see every run's state.
 - Never hold run state that GitHub cannot show. If it is not a label, a comment or a PR,
   it is not state.
-- A trigger is the `vs` command. There is no webhook listener.
+- A trigger is the `vk` command. There is no webhook listener.
 - Auth is whatever token the `gh` CLI already holds. Vishwakarma stores no credential of
   its own.
 - Never write a secret or raw model output into an issue or PR comment.
@@ -52,8 +52,16 @@ source of it.
   PAT. Choose deliberately when the `gh` token is replaced; a per-repo-scoped GitHub App
   installation token is the least-privilege default.
   `docs/research/software-factory-prior-art.md`
+- **`gh` can hold two logins, and only the active one is used.** Writing to a repo the
+  active account can only read fails with `HTTP 404`, not `403`, so it reads as a repo
+  that does not exist. Check `gh auth status` before believing the name is wrong.
+  `gh auth switch` picks the other account.
 
 ## Where it lives
 
-Not built. Background: `docs/research/software-factory-prior-art.md`,
+The label triggers: `apps/cli/src/lib/labels.ts`. The `vk setup` that creates them:
+`apps/cli/src/commands/setup.ts`. The comment log, the board and the run triggers are
+not built.
+
+Background: `docs/research/software-factory-prior-art.md`,
 `docs/research/flue-framework.md`.

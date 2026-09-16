@@ -9,6 +9,7 @@
     "prepare": "vp config"
   },
   "devDependencies": {
+    "cli": "workspace:*",
     "vite": "catalog:",
     "vite-plus": "catalog:"
   },

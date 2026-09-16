@@ -13,18 +13,18 @@ pull request here is work the factory can pick up.
 
 ```mermaid
 flowchart LR
-    I[Issue] -->|vs implement| IR[Implement run<br/>sandboxed agent]
+    I[Issue] -->|vk implement| IR[Implement run<br/>sandboxed agent]
     IR --> PR[Draft PR]
-    PR -->|vs review| RR[Review run<br/>different agent]
+    PR -->|vk review| RR[Review run<br/>different agent]
     RR -->|capped rounds| RR
     RR --> H[Human merges]
 ```
 
 ## Status
 
-The project is at v0. Nothing in `apps/` or `packages/` is Vishwakarma yet; the repository
-is still the Vite+ monorepo starter it was generated from. The project context and the
-decisions come first, then the code.
+The project is at v0. `apps/cli` holds the `vk` CLI, and `vk setup` is its one built
+command. The rest of `apps/` and `packages/` is Vite+ monorepo starter code, not
+Vishwakarma. The project context and the decisions come first, then the code.
 
 Deliberately unbuilt. Each gap has a reason, and the reason lives in `/project-context`:
 

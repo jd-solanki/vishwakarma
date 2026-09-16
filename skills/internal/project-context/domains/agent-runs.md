@@ -56,5 +56,6 @@ produced code.
 
 ## Where it lives
 
-Not built. The v0 surface is three commands: `vs setup <repo>`, `vs implement <issue-no>`,
-`vs review <pr-no>`.
+The v0 surface is three commands: `vk setup`, `vk implement <issue-no>`,
+`vk review <pr-no>`. Each acts on the repo the operator runs it in, so none of them names
+a repo. `vk setup` lives in `apps/cli`; the run commands are not built.
