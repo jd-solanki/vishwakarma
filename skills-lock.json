@@ -11,7 +11,7 @@
       "source": "jd-solanki/skills",
       "sourceType": "github",
       "skillPath": "skills/scaffolding/audit-project-context/SKILL.md",
-      "computedHash": "d62ce033486546b2905f6b47c74e62321ff173c0b8a06db308556574d924085f"
+      "computedHash": "4290c4756444a9fdd0437627eb997ad4a8be02560dd418f8151c036030710284"
     },
     "automate-commit-based-gh-release-changelog": {
       "source": "jd-solanki/skills",
@@ -167,7 +167,7 @@
       "source": "jd-solanki/skills",
       "sourceType": "github",
       "skillPath": "skills/scaffolding/setup-project-context/SKILL.md",
-      "computedHash": "0ff60adb3e67342854a7de06f2aec4feeb3a8391b7fb3900c44b06ec1fd9bc57"
+      "computedHash": "b3a0e64e8fcf0609410842cf7f45f474dad8cf3cecedadd35d2b9681f398a71b"
     },
     "writing-for-agents": {
       "source": "mattpocock/skills",

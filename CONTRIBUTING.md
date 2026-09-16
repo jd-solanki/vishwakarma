@@ -40,7 +40,6 @@ Every rule about the code lives in `/project-context`. Invoke it.
 
 ## How to contribute
 
-- Branch from `main`.
 - Commands: see the `scripts` block in `package.json`.
 - Commits: use the `/git-commit` skill.
 - Pull requests: open as a draft with the `/create-pr` skill.
