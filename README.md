@@ -1,29 +1,16 @@
-# Vite+ Monorepo Starter
+# Vishwakarma
 
-A starter for creating a Vite+ monorepo.
+A code factory. GitHub labels and `vs` commands start sandboxed coding agents that
+implement issues and review pull requests.
 
-## Development
-
-- Check everything is ready:
-
-```bash
-vp run ready
-```
-
-- Run the tests:
+## Setup
 
 ```bash
-vp run -r test
+pnpm install
 ```
 
-- Build the monorepo:
+## More
 
-```bash
-vp run -r build
-```
-
-- Run the development server:
-
-```bash
-vp run dev
-```
+- Contributing and project status: [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+- Commands: the `scripts` block in [`package.json`](./package.json)
+- Research behind the design: [`docs/research/`](./docs/research/)

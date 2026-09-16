@@ -1,3 +1,15 @@
+<!-- project-context -->
+
+## Project context
+
+Before the first code action in a session: Read `CONTRIBUTING.md`, then invoke
+`/project-context`.
+
+`/project-context` holds this repository's words, rules, reasons and fences. Its table
+says which references your task needs. Emit the triage line, then Read those.
+
+<!-- project-context -->
+
 ## General Rules
 
 - Do not manually edit files managed by CLI tools. E.g. skills-lock.json, pnpm-lock.yml, etc
