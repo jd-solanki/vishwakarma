@@ -18,22 +18,20 @@ Two headings. A developer on their first day can act on both.
 
 ```markdown
 ## What
-
 What you saw, or what you want. The first sentence says what is wrong.
 
 ## Done when
-
 One sentence the reader can tick off.
 ```
 
 ## Then one line more, by shape
 
-| The ticket is      | Add                                                          |
-| ------------------ | ------------------------------------------------------------ |
-| Something broke    | What you expected instead, and whether it happens every time |
-| Something to build | Who wants it, and what they do today without it              |
-| A note to self     | The trigger: what makes it worth doing, and when             |
-| Cleanup            | What it costs to leave it alone                              |
+| The ticket is | Add |
+|---|---|
+| Something broke | What you expected instead, and whether it happens every time |
+| Something to build | Who wants it, and what they do today without it |
+| A note to self | The trigger: what makes it worth doing, and when |
+| Cleanup | What it costs to leave it alone |
 
 Read the shape off the context. Ask only when the context truly does not say.
 

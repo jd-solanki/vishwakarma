@@ -24,7 +24,7 @@ The project's `skills-lock.json` names the source under the skill's key:
 ```json
 "create-ticket": {
   "source": "jd-solanki/skills",
-  "skillPath": "skills/in-progress/create-ticket/SKILL.md"
+  "skillPath": "skills/engineering/create-ticket/SKILL.md"
 }
 ```
 
@@ -50,7 +50,7 @@ Say what the edit does in one sentence before you touch upstream. An edit you
 cannot describe is an edit you cannot backport.
 
 **Done when:** you have the diff, and every hunk in it belongs to the user rather
-than to an earlier `skills update`.
+than to an earlier update from upstream.
 
 ### 3. Apply it upstream
 
@@ -70,4 +70,4 @@ Push is a separate ask.
 ### 5. Hand back the next step
 
 The project still runs the old copy. Tell the user to run
-`/update-project-skills <name>` once the source repo is pushed.
+`/manage-project-skills update <name>` once the source repo is pushed.
